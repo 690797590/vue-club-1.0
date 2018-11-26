@@ -1,10 +1,8 @@
 # vue-blog
 
 > For Big Chair!
-
-## dev为本地运行分支
 ## Build Setup
-
+*dev为本地运行分支*
 ``` bash
 # install dependencies
 npm install
