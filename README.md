@@ -1,7 +1,8 @@
 # vue-blog
 
 > For Big Chair!
-**dev为本地运行分支**
+
+>dev为本地运行分支
 ## Build Setup
 
 ``` bash
