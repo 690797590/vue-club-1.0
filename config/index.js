@@ -12,10 +12,10 @@ module.exports = {
     assetsPublicPath: '/',
     // proxyTable: {
     //   '/api': {
-    //     target: 'http://dulaoshi.club',
+    //     target: 'https://dulaoshi.club',
     //     changeOrigin: true,
     //     pathRewrite: {
-    //       '^/api': 'http://dulaoshi.club'
+    //       '^/api': 'https://dulaoshi.club'
     //     }
     //   }
     // }, //本地运行
