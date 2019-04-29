@@ -10,18 +10,18 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    proxyTable: {
-      '/api': {
-        target: 'http://dulaoshi.club',
-        changeOrigin: true,
-        pathRewrite: {
-          '^/api': 'http://dulaoshi.club'
-        }
-      }
-    }, //本地运行
-    // proxyTable:{
+    // proxyTable: {
+    //   '/api': {
+    //     target: 'https://dulaoshi.club',
+    //     changeOrigin: true,
+    //     pathRewrite: {
+    //       '^/api': 'https://dulaoshi.club'
+    //     }
+    //   }
+    // }, //本地运行
+    proxyTable:{
 
-    // }, ////线上运行
+    }, ////线上运行
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
     port: 4399, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
