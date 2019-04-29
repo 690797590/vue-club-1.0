@@ -9,7 +9,7 @@ import VueBus from 'vue-bus'
 axios.defaults.withCredentials = true
 Vue.prototype.$axios = axios
 // Vue.prototype.HOST = '/api' //本地运行
-Vue.prototype.HOST = 'http://dulaoshi.club' //线上运行
+Vue.prototype.HOST = 'https://dulaoshi.club' //线上运行
 Vue.use(ElementUI);
 Vue.use(VueRouter);
 Vue.use(VueBus);
